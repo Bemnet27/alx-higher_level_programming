@@ -5,6 +5,8 @@ def copy_list(my_list):
         for i in range(len(my_list)):
             new_list.append(my_list[i])
         return new_list
+
+
 def new_in_list(my_list, idx, element):
     if my_list:
         _copy = copy_list(my_list)
@@ -12,5 +14,4 @@ def new_in_list(my_list, idx, element):
             return 'None'
         else:
             _copy[idx] = element
-            return _copy 
-
+            return _copy
